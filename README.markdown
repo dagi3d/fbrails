@@ -5,8 +5,8 @@ A simple rails plugin to access the facebook user's data
 It uses the facebook_oauth gem to make the authorized requests
 
 
-Configuration
-=============
+Usage
+=====
 
 config/facebook.yml
 
