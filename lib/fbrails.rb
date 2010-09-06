@@ -23,7 +23,9 @@ module FBRails
               :application_secret => FBRails::Config[:application_secret],
               :token => access_token
           ).me.info(options)
-        rescue
+        rescue Exception => e
+          logger.error(e)
+          nil
         end
       end
       
