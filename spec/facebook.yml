@@ -1,0 +1,3 @@
+test:
+  application_id: "APPLICATION_ID"
+  application_secret: "APPLICATION_SECRET"
